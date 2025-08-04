@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram login</title>
+    <style>
+        h2 {
+            font-family: 'cookies',cursive;
+        }
+        body{font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+            background-color: rgb(249, 249, 252);
+
+        }      
+        
+        form{ max-width: 300px;
+            margin: auto;
+            padding: 10px;                        
+            border:1px solid black;
+            border-radius: 6px;
+            text-align: center;
+            
+            
+            
+        }
+        button {
+            display: block;
+            margin: 10px 0;
+            background:#3957cf ;
+            border: none;
+
+        }
+
+        label {display: block;
+            margin: 12px 0 6px;
+            font-weight: bold;
+            width: 50px;
+
+        }
+        input[type="phonenumber,username or email"]
+        input[type="Password"]
+            textarea{width:100%;
+                padding:10px 20px;
+                border-radius: 4px;
+                
+        }
+               
+        #one {
+            position: absolute;
+            font-size: smaller;
+        }
+        #two {
+            display: block;
+            position: absolute;
+            width:300px;
+            height: 25px;
+            background-color: #0d54ed;
+            cursor: pointer;
+            color: white;
+            font-size: small;
+        }
+        #two:hover {            
+            background-color: #dfe690;
+        }
+        #three {
+            color: blue;
+            font-size: small;
+        }
+        #four {
+            position: relative;
+            top:43px ;
+        }
+        #five {
+            position: relative;
+            font-size: x-small;
+            left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <h2>Instagram</h2>
+        <label for="phonenumber,username or email"></label>
+        <input type="text" id="phonenumber,username or email" placeholder="phonenumber,username or email" required/>
+        <br>
+
+        <label for="Password"></label>
+        <input type="password" id="Password" placeholder="Password" required />
+        <br>
+
+        <a  id="one" href="https://instagram.com">Forgotten password?</a>
+        <br>
+        <br>
+        <button id="two" class="Log In" type="button">Log In</button>
+        <br>
+        <h5>or</h5>
+        <a id="three" href="https://facebook.com">Continue as papu maibam</a>
+        <h6 id="four">Don't have an account?</h6>
+        <a id="five" href="https://instagram.com">Sign Up</a>
+
+    </form>
+
+    
+    
+</body>
+</html>
