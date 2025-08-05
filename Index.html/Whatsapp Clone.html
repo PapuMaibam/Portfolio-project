@@ -17,15 +17,15 @@
             }
 
             input{
+                position: absolute;
+                align-items: center;
                 height: 40px;
                 width: 400px;
                 border-top-right-radius: 30px;
                 border-bottom-right-radius: 30px;
-                border-top-left-radius: 30px;
-                border-bottom-left-radius: 30px;
-                position: relative;
+                border-left: none;                
                 left: 400px;               
-                                
+                border: 1px solid white;                
             }
             
             nav > div{
@@ -55,6 +55,16 @@
 
             .budu:hover{
                 transform: scale(1.05);
+            }
+            .nav-search {
+                position: absolute;
+                margin-left: 350px;
+                border: 1px solid white;
+                height: 12px;
+                width: 60px;
+                padding: 15px;
+                border-bottom-left-radius: 20px;
+                border-top-left-radius: 20px;
             }
         </style>
     </head>
@@ -89,15 +99,11 @@
               </nav>
 
         <div class="nav-search">
-        <i class="fa-solid fa-magnifying-glass" style="position: absolute;
-        top: 75px;
-        left: 380px;       
-        "         
-        ></i>
-        
+        <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
         <input type="text" placeholder="Ask Meta AI or Search"       
         />
-        </div>
+      
 
 
         <span class="budu">
